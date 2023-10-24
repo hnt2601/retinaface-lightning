@@ -1,0 +1,62 @@
+{
+    "os": "Linux-5.15.0-79-generic-x86_64-with-glibc2.17",
+    "python": "3.8.17",
+    "heartbeatAt": "2023-08-24T14:39:52.109793",
+    "startedAt": "2023-08-24T14:39:52.009262",
+    "docker": null,
+    "cuda": "10.2.89",
+    "args": [
+        "-c",
+        "./configs/config.yaml"
+    ],
+    "state": "running",
+    "program": "src/train.py",
+    "codePath": "src/train.py",
+    "host": "hnt",
+    "username": "hoangnt",
+    "executable": "/home/hoangnt/anaconda3/envs/face/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2.839,
+        "min": 800.0,
+        "max": 3500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.183,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 3.173,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "total": 233.17998886108398,
+        "used": 112.20054244995117
+    },
+    "gpu": "NVIDIA GeForce GTX 1050",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.391021728515625
+    }
+}

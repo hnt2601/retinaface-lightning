@@ -1,0 +1,68 @@
+{
+    "os": "Linux-5.15.0-82-generic-x86_64-with-glibc2.17",
+    "python": "3.8.17",
+    "heartbeatAt": "2023-08-31T14:07:16.819498",
+    "startedAt": "2023-08-31T14:07:16.703865",
+    "docker": null,
+    "cuda": "10.2.89",
+    "args": [
+        "-c",
+        "./configs/config.yaml"
+    ],
+    "state": "running",
+    "program": "src/train.py",
+    "codePath": "src/train.py",
+    "git": {
+        "remote": "git@github.com:zest-analysys/aiadv-face-analysis.git",
+        "commit": "278b97eb5068d199f9ae7e40c4ba6e7d3a4ed204"
+    },
+    "email": "hoang.nguyentien@meditech.vn",
+    "root": "/media/hoangnt/Data/Outsources/AI-Advertising/aiadv-face-analysis",
+    "host": "hnt",
+    "username": "hoangnt",
+    "executable": "/home/hoangnt/anaconda3/envs/face/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2.6599999999999997,
+        "min": 800.0,
+        "max": 3500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.559,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2.5,
+            "min": 800.0,
+            "max": 3500.0
+        },
+        {
+            "current": 2.594,
+            "min": 800.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "total": 233.17998886108398,
+        "used": 114.06600570678711
+    },
+    "gpu": "NVIDIA GeForce GTX 1050",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.391021728515625
+    }
+}

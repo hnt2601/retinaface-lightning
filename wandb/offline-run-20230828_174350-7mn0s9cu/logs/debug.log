@@ -1,0 +1,25 @@
+2023-08-28 17:43:50,024 INFO    MainThread:199041 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-28 17:43:50,025 INFO    MainThread:199041 [wandb_setup.py:_flush():76] Configure stats pid to 199041
+2023-08-28 17:43:50,025 INFO    MainThread:199041 [wandb_setup.py:_flush():76] Loading settings from /home/hoangnt/.config/wandb/settings
+2023-08-28 17:43:50,025 INFO    MainThread:199041 [wandb_setup.py:_flush():76] Loading settings from /media/hoangnt/Data/Outsources/AI-Advertising/retinaface-lightning/wandb/settings
+2023-08-28 17:43:50,025 INFO    MainThread:199041 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-28 17:43:50,025 INFO    MainThread:199041 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-28 17:43:50,025 INFO    MainThread:199041 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/train.py', 'program': '/media/hoangnt/Data/Outsources/AI-Advertising/retinaface-lightning/src/train.py'}
+2023-08-28 17:43:50,025 INFO    MainThread:199041 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2023-08-28 17:43:50,026 INFO    MainThread:199041 [wandb_init.py:_log_setup():507] Logging user logs to ./wandb/offline-run-20230828_174350-7mn0s9cu/logs/debug.log
+2023-08-28 17:43:50,026 INFO    MainThread:199041 [wandb_init.py:_log_setup():508] Logging internal logs to ./wandb/offline-run-20230828_174350-7mn0s9cu/logs/debug-internal.log
+2023-08-28 17:43:50,026 INFO    MainThread:199041 [wandb_init.py:init():547] calling init triggers
+2023-08-28 17:43:50,026 INFO    MainThread:199041 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-08-28 17:43:50,027 INFO    MainThread:199041 [wandb_init.py:init():596] starting backend
+2023-08-28 17:43:50,027 INFO    MainThread:199041 [wandb_init.py:init():600] setting up manager
+2023-08-28 17:43:50,031 INFO    MainThread:199041 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-28 17:43:50,035 INFO    MainThread:199041 [wandb_init.py:init():606] backend started and connected
+2023-08-28 17:43:50,043 INFO    MainThread:199041 [wandb_init.py:init():697] updated telemetry
+2023-08-28 17:43:50,045 INFO    MainThread:199041 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-08-28 17:43:50,062 INFO    MainThread:199041 [wandb_init.py:init():781] starting run threads in backend
+2023-08-28 17:43:56,109 INFO    MainThread:199041 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-28 17:43:56,109 INFO    MainThread:199041 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-28 17:43:56,109 INFO    MainThread:199041 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-28 17:43:56,110 INFO    MainThread:199041 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-28 17:43:56,111 INFO    MainThread:199041 [wandb_init.py:init():822] run started, returning control to user process

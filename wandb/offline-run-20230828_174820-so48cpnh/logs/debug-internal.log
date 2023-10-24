@@ -1,0 +1,431 @@
+2023-08-28 17:48:20,081 INFO    StreamThr :201003 [internal.py:wandb_internal():86] W&B internal server running at pid: 201003, started at: 2023-08-28 17:48:20.080583
+2023-08-28 17:48:20,084 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status
+2023-08-28 17:48:20,090 INFO    WriterThread:201003 [datastore.py:open_for_write():85] open: ./wandb/offline-run-20230828_174820-so48cpnh/run-so48cpnh.wandb
+2023-08-28 17:48:20,144 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: run_start
+2023-08-28 17:48:20,159 DEBUG   HandlerThread:201003 [system_info.py:__init__():31] System info init
+2023-08-28 17:48:20,159 DEBUG   HandlerThread:201003 [system_info.py:__init__():46] System info init done
+2023-08-28 17:48:20,159 INFO    HandlerThread:201003 [system_monitor.py:start():181] Starting system monitor
+2023-08-28 17:48:20,159 INFO    SystemMonitor:201003 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-28 17:48:20,159 INFO    HandlerThread:201003 [system_monitor.py:probe():201] Collecting system info
+2023-08-28 17:48:20,160 INFO    SystemMonitor:201003 [interfaces.py:start():190] Started cpu monitoring
+2023-08-28 17:48:20,161 INFO    SystemMonitor:201003 [interfaces.py:start():190] Started disk monitoring
+2023-08-28 17:48:20,163 INFO    SystemMonitor:201003 [interfaces.py:start():190] Started gpu monitoring
+2023-08-28 17:48:20,163 INFO    SystemMonitor:201003 [interfaces.py:start():190] Started memory monitoring
+2023-08-28 17:48:20,165 INFO    SystemMonitor:201003 [interfaces.py:start():190] Started network monitoring
+2023-08-28 17:48:20,170 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:20,170 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:20,187 DEBUG   HandlerThread:201003 [system_info.py:probe():195] Probing system
+2023-08-28 17:48:20,198 DEBUG   HandlerThread:201003 [gitlib.py:_init_repo():53] git repository is invalid
+2023-08-28 17:48:20,198 DEBUG   HandlerThread:201003 [system_info.py:probe():240] Probing system done
+2023-08-28 17:48:20,198 DEBUG   HandlerThread:201003 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-79-generic-x86_64-with-glibc2.17', 'python': '3.8.17', 'heartbeatAt': '2023-08-28T10:48:20.187942', 'startedAt': '2023-08-28T10:48:20.071820', 'docker': None, 'cuda': '10.2.89', 'args': ('-c', './configs/config.yaml'), 'state': 'running', 'program': 'src/train.py', 'codePath': 'src/train.py', 'host': 'hnt', 'username': 'hoangnt', 'executable': '/home/hoangnt/anaconda3/envs/face/bin/python', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2.26075, 'min': 800.0, 'max': 3500.0}, 'cpu_freq_per_core': [{'current': 2.5, 'min': 800.0, 'max': 3500.0}, {'current': 1.543, 'min': 800.0, 'max': 3500.0}, {'current': 2.5, 'min': 800.0, 'max': 3500.0}, {'current': 2.5, 'min': 800.0, 'max': 3500.0}], 'disk': {'total': 233.17998886108398, 'used': 113.34344863891602}, 'gpu': 'NVIDIA GeForce GTX 1050', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1050', 'memory_total': 4294967296}], 'memory': {'total': 15.391021728515625}}
+2023-08-28 17:48:20,198 INFO    HandlerThread:201003 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-28 17:48:20,198 INFO    HandlerThread:201003 [system_monitor.py:probe():214] Publishing system info
+2023-08-28 17:48:20,198 DEBUG   HandlerThread:201003 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-28 17:48:20,199 DEBUG   HandlerThread:201003 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-28 17:48:20,199 DEBUG   HandlerThread:201003 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-28 17:48:22,171 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:22,171 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:24,172 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:24,172 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:25,157 DEBUG   HandlerThread:201003 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-28 17:48:25,158 INFO    HandlerThread:201003 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-28 17:48:25,164 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:48:25,164 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-28 17:48:25,164 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:48:26,172 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:26,172 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:28,173 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:28,173 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:30,165 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:48:30,167 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:48:30,174 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:30,174 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:32,174 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:32,175 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:34,175 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:34,176 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:35,168 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:48:35,168 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:48:36,176 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:36,176 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:38,180 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:38,180 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:38,617 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:48:40,171 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:48:40,171 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:48:40,180 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:40,181 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:42,181 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:42,181 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:44,182 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:44,182 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:45,172 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:48:45,173 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:48:45,443 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:48:46,182 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:46,183 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:48,183 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:48,183 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:50,173 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:48:50,173 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:48:50,246 ERROR   gpu       :201003 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-08-28 17:48:50,246 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:50,246 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:52,069 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:48:52,247 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:52,247 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:54,248 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:54,248 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:55,175 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:48:55,176 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:48:56,248 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:56,248 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:58,249 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:58,249 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:48:59,026 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:49:00,177 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:00,178 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:00,250 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:00,250 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:02,251 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:02,251 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:04,251 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:04,252 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:05,178 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:05,179 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:05,996 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:49:06,252 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:06,252 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:08,253 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:08,253 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:10,182 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:10,182 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:10,253 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:10,253 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:12,254 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:12,254 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:12,744 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:49:14,255 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:14,255 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:15,183 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:15,183 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:16,258 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:16,258 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:18,259 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:18,259 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:19,472 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:49:20,165 DEBUG   SystemMonitor:201003 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-28 17:49:20,184 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:20,184 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:20,321 ERROR   gpu       :201003 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-08-28 17:49:20,322 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:20,322 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:22,323 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:22,323 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:24,323 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:24,323 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:25,185 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:25,185 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:26,324 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:26,324 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:26,361 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:49:28,325 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:28,325 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:30,191 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:30,192 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:30,326 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:30,326 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:32,326 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:32,326 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:33,205 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:49:34,327 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:34,327 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:35,192 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:35,208 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:36,328 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:36,328 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:38,329 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:38,329 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:40,182 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:49:40,209 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:40,209 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:40,329 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:40,330 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:42,330 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:42,330 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:44,331 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:44,331 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:45,210 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:45,210 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:46,332 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:46,332 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:47,137 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:49:48,332 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:48,332 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:50,212 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:50,212 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:50,429 ERROR   gpu       :201003 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-08-28 17:49:50,430 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:50,430 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:52,433 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:52,434 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:54,087 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:49:54,434 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:54,434 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:55,220 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:49:55,249 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:49:56,435 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:56,435 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:58,436 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:49:58,436 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:00,250 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:00,251 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:00,436 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:00,437 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:01,066 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:50:02,437 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:02,437 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:04,438 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:04,438 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:05,253 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:05,253 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:06,439 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:06,439 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:08,003 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:50:08,439 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:08,439 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:10,254 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:10,256 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:10,440 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:10,440 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:12,441 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:12,441 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:14,441 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:14,442 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:14,830 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:50:15,257 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:15,257 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:16,442 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:16,442 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:18,443 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:18,443 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:20,258 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:20,258 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:20,533 ERROR   gpu       :201003 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-08-28 17:50:20,534 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:20,534 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:21,969 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:50:22,535 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:22,535 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:24,535 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:24,535 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:25,259 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:25,259 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:26,536 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:26,536 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:28,537 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:28,537 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:29,006 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:50:30,268 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:30,268 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:30,537 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:30,538 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:32,538 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:32,538 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:34,539 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:34,539 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:35,269 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:35,269 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:36,107 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:50:36,540 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:36,540 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:38,540 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:38,541 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:40,270 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:40,270 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:40,541 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:40,541 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:42,542 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:42,542 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:43,100 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:50:44,542 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:44,543 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:45,271 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:45,271 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:46,543 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:46,543 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:48,552 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:48,552 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:50,080 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:50:50,272 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:50,272 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:50,620 ERROR   gpu       :201003 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-08-28 17:50:50,620 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:50,621 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:52,621 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:52,621 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:54,622 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:54,622 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:55,272 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:50:55,273 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:50:56,623 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:56,623 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:57,321 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:50:58,623 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:50:58,623 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:00,273 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:51:00,274 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:51:00,624 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:00,624 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:02,625 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:02,625 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:04,626 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:04,626 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:04,682 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:51:05,274 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:51:05,275 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:51:06,626 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:06,626 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:08,627 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:08,627 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:10,275 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:51:10,276 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:51:10,628 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:10,628 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:11,889 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:51:12,629 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:12,629 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:14,629 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:14,630 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:15,279 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:51:15,279 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:51:16,630 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:16,630 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:18,631 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:18,631 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:19,310 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:51:20,280 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:51:20,280 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:51:20,737 ERROR   gpu       :201003 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-08-28 17:51:20,737 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:20,737 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:22,738 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:22,738 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:24,739 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:24,739 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:25,281 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:51:25,281 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:51:26,739 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:26,739 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:27,104 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-28 17:51:28,740 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:28,740 ERROR   gpu       :201003 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-08-28 17:51:30,282 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:51:30,282 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:51:30,386 DEBUG   SenderThread:201003 [sender.py:send():379] send: exit
+2023-08-28 17:51:30,386 INFO    SenderThread:201003 [sender.py:send_exit():584] handling exit code: 0
+2023-08-28 17:51:30,387 INFO    SenderThread:201003 [sender.py:send_exit():586] handling runtime: 190
+2023-08-28 17:51:30,388 INFO    SenderThread:201003 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-28 17:51:30,388 INFO    SenderThread:201003 [sender.py:send_exit():592] send defer
+2023-08-28 17:51:30,388 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,388 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-28 17:51:30,388 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,388 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-08-28 17:51:30,388 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 1
+2023-08-28 17:51:30,389 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,389 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-28 17:51:30,389 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,389 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-08-28 17:51:30,389 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 2
+2023-08-28 17:51:30,389 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,389 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-28 17:51:30,389 INFO    HandlerThread:201003 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-28 17:51:30,389 DEBUG   SystemMonitor:201003 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-28 17:51:30,389 DEBUG   SystemMonitor:201003 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-28 17:51:30,396 INFO    HandlerThread:201003 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-28 17:51:30,396 INFO    HandlerThread:201003 [interfaces.py:finish():202] Joined disk monitor
+2023-08-28 17:51:30,554 ERROR   gpu       :201003 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-08-28 17:51:30,554 INFO    HandlerThread:201003 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-28 17:51:30,554 INFO    HandlerThread:201003 [interfaces.py:finish():202] Joined memory monitor
+2023-08-28 17:51:30,554 INFO    HandlerThread:201003 [interfaces.py:finish():202] Joined network monitor
+2023-08-28 17:51:30,554 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,554 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-08-28 17:51:30,555 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 3
+2023-08-28 17:51:30,555 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,555 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-28 17:51:30,555 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,555 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-08-28 17:51:30,555 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 4
+2023-08-28 17:51:30,555 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,555 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-28 17:51:30,555 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,555 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-08-28 17:51:30,555 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 5
+2023-08-28 17:51:30,556 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,556 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-28 17:51:30,556 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,556 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-08-28 17:51:30,556 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 6
+2023-08-28 17:51:30,556 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,556 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-28 17:51:30,556 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,557 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-08-28 17:51:30,557 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 7
+2023-08-28 17:51:30,557 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 17:51:30,557 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,557 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-28 17:51:30,557 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: status_report
+2023-08-28 17:51:30,557 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,557 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-08-28 17:51:30,557 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 8
+2023-08-28 17:51:30,557 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,557 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-28 17:51:30,558 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,558 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-08-28 17:51:30,558 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 9
+2023-08-28 17:51:30,558 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,558 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-28 17:51:30,558 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,558 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-08-28 17:51:30,558 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 10
+2023-08-28 17:51:30,558 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,558 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-28 17:51:30,558 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,558 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-08-28 17:51:30,558 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 11
+2023-08-28 17:51:30,559 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,559 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-28 17:51:30,559 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,559 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-08-28 17:51:30,559 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 12
+2023-08-28 17:51:30,559 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,559 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-28 17:51:30,559 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,559 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-08-28 17:51:30,559 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 13
+2023-08-28 17:51:30,559 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,559 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-28 17:51:30,560 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,560 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-08-28 17:51:30,560 INFO    SenderThread:201003 [sender.py:transition_state():612] send defer: 14
+2023-08-28 17:51:30,560 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 17:51:30,560 INFO    HandlerThread:201003 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-28 17:51:30,560 DEBUG   SenderThread:201003 [sender.py:send():379] send: final
+2023-08-28 17:51:30,560 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: defer
+2023-08-28 17:51:30,560 INFO    SenderThread:201003 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-08-28 17:51:30,561 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-28 17:51:30,561 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: poll_exit
+2023-08-28 17:51:30,561 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-28 17:51:30,562 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: server_info
+2023-08-28 17:51:30,562 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-28 17:51:30,562 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: poll_exit
+2023-08-28 17:51:30,562 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: server_info
+2023-08-28 17:51:30,563 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: sampled_history
+2023-08-28 17:51:30,563 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: job_info
+2023-08-28 17:51:30,563 DEBUG   SenderThread:201003 [sender.py:send_request():406] send_request: job_info
+2023-08-28 17:51:30,564 INFO    MainThread:201003 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-08-28 17:51:30,564 INFO    MainThread:201003 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-08-28 17:51:30,564 DEBUG   HandlerThread:201003 [handler.py:handle_request():144] handle_request: shutdown
+2023-08-28 17:51:30,564 INFO    HandlerThread:201003 [handler.py:finish():857] shutting down handler
+2023-08-28 17:51:31,564 INFO    WriterThread:201003 [datastore.py:close():294] close: ./wandb/offline-run-20230828_174820-so48cpnh/run-so48cpnh.wandb
+2023-08-28 17:51:31,564 INFO    SenderThread:201003 [sender.py:finish():1552] shutting down sender
